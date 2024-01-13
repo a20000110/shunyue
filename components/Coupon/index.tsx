@@ -19,7 +19,7 @@ export default function Coupon({
       <span className="text-white font-bold">GET 10% OFF</span>
     </div>
     <Dialog open={open} onClose={setOpen} className={`
-    !bg-[url('https://d3k81ch9hvuctc.cloudfront.net/company/VWCWDG/images/d0072398-70b2-4c6d-a60b-487a2606ef2e.png')]
+    !bg-[url('/image/home/yhq.webp')]
     !rounded-[5px] !bg-cover
     `}>
       <DialogBody>

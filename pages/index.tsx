@@ -115,7 +115,7 @@ const ProductCart2 = ({ product }: any) => {
     <div className="p-8 max-md:p-4">
       <h3 className="font-bold text-2xl max-md:text-sm max-h-[64px] md:h-[64px] line-clamp-2">{product.name}</h3>
       <Text className="!my-2 line-clamp-2 max-md:text-xs">{product?.description}</Text>
-      <Button className="!bg-orange-500 !text-white !w-full">Shop Now</Button>
+      <Button className="!bg-orange-500 !text-white !w-full cursor-pointer">Shop Now</Button>
     </div>
   </div>;
 };
